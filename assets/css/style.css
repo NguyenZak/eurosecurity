@@ -3,7 +3,7 @@
 @font-face {
   font-family: SanFranciscoDisplay;
   src:
-  url('../fonts/SanFranciscoDisplay-Regular.otf'),
+  /* url('../fonts/SanFranciscoDisplay-Regular.otf'), */
   url('../fonts/SanFranciscoDisplay-Medium.otf'),
   url('../fonts/SanFranciscoDisplay-Bold.otf'),
   url('../fonts/SanFranciscoDisplay-Semibold.otf'),

@@ -50,7 +50,7 @@
     padding-top: 15px;
   }
   .mobile-nav .logo img {
-    max-width: 110px;
+    height: 35px;
   }
   .menu-btn {
     display: none;
@@ -190,9 +190,11 @@
     display: none;
   }
   .tabs-item-list ul li a {
-    margin: 0 7px;
+    width: 150px;
+    margin: 8px 8px;
     padding: 8px 35px;
     border-radius: 5px;
+    text-align: center;
   }
   #prices-content {
     margin-top: 30px;

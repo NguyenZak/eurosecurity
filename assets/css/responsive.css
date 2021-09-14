@@ -3,11 +3,11 @@
     font-size: 14px;
   }
   .ptb-100 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .pt-100 {
-    padding-top: 50px;
+    padding-top: 25px;
   }
   .ptb-70 {
     padding-top: 20px;
@@ -17,7 +17,7 @@
     padding-bottom: 50px;
   }
   .pt-70 {
-    padding-top: 30px;
+    padding-top: 20px;
   }
   .pb-90 {
     padding-bottom: 50px;
@@ -26,7 +26,7 @@
     padding-bottom: 20px;
   }
   .pt-45 {
-    padding-top: 30px;
+    padding-top: 20px;
   }
   .pt-20 {
     padding-top: 0;
@@ -131,7 +131,7 @@
   }
   .about-content {
     margin-left: 0;
-    margin-top: 0;
+    margin-top: 20px;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -336,7 +336,7 @@
     padding-bottom: 130px;
   }
   .slider-item .slider-content h1 {
-    max-width: 300px;
+    max-width: 350px;
     margin-left: auto;
     margin-right: auto;
     font-size: 35px;
@@ -362,6 +362,26 @@
     transform: translateY(0);
   }
   .product-images .owl-nav .owl-next {
+    top: unset;
+    bottom: -70px;
+    right: 35%;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .partner-logo {
+    position: relative;
+  }
+  .partner-logo .owl-nav {
+    margin-bottom: 40px;
+  }
+  .partner-logo .owl-nav .owl-prev {
+    top: unset;
+    bottom: -70px;
+    left: 35%;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .partner-logo .owl-nav .owl-next {
     top: unset;
     bottom: -70px;
     right: 35%;
@@ -820,6 +840,12 @@
   .product-images .owl-nav .owl-next {
     right: 40%;
   }
+  .partner-logo .owl-nav .owl-prev {
+    left: 40%;
+  }
+  .partner-logo .owl-nav .owl-next {
+    right: 40%;
+  }
   .testimonial-area-two .owl-nav .owl-prev {
     bottom: unset;
     left: 40%;
@@ -891,7 +917,7 @@
     padding-top: 15px;
   }
   .mobile-nav .logo img {
-    max-width: 110px;
+    max-width: 250px;
 
   }
   .menu-btn {
@@ -1174,26 +1200,7 @@
   .slider-item .slider-content p {
     margin-bottom: 20px;
   }
-  .product-images {
-    position: relative;
-  }
-  .product-images .owl-nav {
-    margin-bottom: 40px;
-  }
-  .product-images .owl-nav .owl-prev {
-    top: unset;
-    bottom: -70px;
-    left: 42%;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  .product-images .owl-nav .owl-next {
-    top: unset;
-    bottom: -70px;
-    right: 42%;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
+  
   .choose-card h3 {
     font-size: 18px;
   }

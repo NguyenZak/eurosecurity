@@ -1,5 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&amp;display=swap";
 @import "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&amp;display=swap";
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap";
 @font-face {
   font-family: BlinkMacSystemFont;
   src:
@@ -8,13 +9,12 @@
   url('../fonts/SanFranciscoDisplay-Bold.otf'),
   url('../fonts/SanFranciscoDisplay-Semibold.otf'),
   url('../fonts/SanFranciscoDisplay-Heavy.otf');
-  
 }
 
 body {
   font-size: 16px;
   line-height: 1.8;
-  font-family: BlinkMacSystemFont ,sans-serif;
+  font-family: Noto Sans ,sans-serif;
   color: #8d8d90;
   font-weight: 100;
 }
@@ -990,6 +990,7 @@ img {
 }
 .service-card a img {
   max-width: 100%;
+  border-radius: 15px;
 }
 .service-card .service-content {
   padding: 20px;
@@ -1763,13 +1764,13 @@ img {
   border: 1px solid #2d3652 !important;
 }
 .bg-item1 {
-  background-image: url(../img/home2/1.jpg);
+  background-image: url(../img/home2/4.jpg);
 }
 .bg-item2 {
-  background-image: url(../img/home2/2.jpg);
+  background-image: url(../img/home2/5.jpg);
 }
 .bg-item3 {
-  background-image: url(../img/home2/3.jpg);
+  background-image: url(../img/home2/6.jpg);
 }
 .product-images {
   position: relative;
@@ -2370,7 +2371,7 @@ img {
   left: 50px;
   top: -50px;
   z-index: -1;
-  font-family: BlinkMacSystemFont , sans-serif;
+  font-family: Noto Sans , sans-serif;
   font-size: 140px;
   font-weight: 900;
   opacity: 0.1;
@@ -3977,7 +3978,7 @@ img {
   .review-item
   p {
   margin-bottom: 0;
-  font-family: BlinkMacSystemFont, sans-serif;
+  font-family: Noto Sans, sans-serif;
 }
 .product-detls-tab
   .tab_content

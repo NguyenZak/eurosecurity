@@ -2336,7 +2336,7 @@ img {
   left: 50px;
   top: -50px;
   z-index: -1;
-  font-family: boxicons;
+  font-family: SanFranciscoDisplay , sans-serif;
   font-size: 140px;
   font-weight: 900;
   opacity: 0.1;

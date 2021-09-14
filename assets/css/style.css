@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&amp;display=swap";
 @import "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&amp;display=swap";
 @font-face {
-  font-family: SanFranciscoDisplay;
+  font-family: BlinkMacSystemFont;
   src:
   /* url('../fonts/SanFranciscoDisplay-Regular.otf'), */
   url('../fonts/SanFranciscoDisplay-Medium.otf'),
@@ -14,7 +14,7 @@
 body {
   font-size: 16px;
   line-height: 1.8;
-  font-family: SanFranciscoDisplay ,sans-serif;
+  font-family: BlinkMacSystemFont ,sans-serif;
   color: #8d8d90;
   font-weight: 100;
 }
@@ -2336,7 +2336,7 @@ img {
   left: 50px;
   top: -50px;
   z-index: -1;
-  font-family: SanFranciscoDisplay , sans-serif;
+  font-family: BlinkMacSystemFont , sans-serif;
   font-size: 140px;
   font-weight: 900;
   opacity: 0.1;
@@ -3943,7 +3943,7 @@ img {
   .review-item
   p {
   margin-bottom: 0;
-  font-family: SanFranciscoDisplay, sans-serif;
+  font-family: BlinkMacSystemFont, sans-serif;
 }
 .product-detls-tab
   .tab_content

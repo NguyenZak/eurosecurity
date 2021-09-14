@@ -1003,6 +1003,7 @@ img {
 .service-card .service-content p {
   max-width: 300px;
   margin-bottom: 15px;
+  text-align: center;
 }
 .service-card .service-content .more-btn {
   display: inline-block;
